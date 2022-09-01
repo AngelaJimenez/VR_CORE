@@ -16,14 +16,14 @@ public class HandHider : MonoBehaviour
 
     private void OnEnable()
     {
-        interactor.onSelectEnter.AddListener(Hide);
-        interactor.onSelectExit.AddListener(Show);
+        interactor.onSelectEntered.AddListener(Hide);
+        interactor.onSelectExited.AddListener(Show);
     }
 
     private void OnDisable()
     {
-        interactor.onSelectEnter.RemoveListener(Hide);
-        interactor.onSelectExit.RemoveListener(Show);
+        interactor.onSelectEntered.RemoveListener(Hide);
+        interactor.onSelectExited.RemoveListener(Show);
     }
 
     private void Show(XRBaseInteractable interactable)
