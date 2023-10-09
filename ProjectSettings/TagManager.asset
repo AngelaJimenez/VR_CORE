@@ -3,16 +3,26 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - finalDoorKey
+  - secondPlayer
+  - firstPlayer
+  - gear1
+  - gear2
+  - keyChesGears
+  - potion
+  - cauldron
+  - oven
+  - trash
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Teleport
+  - teleport
   - Water
   - UI
   - Grab
-  - 
+  - Player
   - 
   - 
   - 
